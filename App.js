@@ -1,21 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import TestComponent2 from './src/TestComponent2';
+import TestComponent from './src/TestComponent';
+
+// Please read the documentation in README.pdf
+// TestComponent is for demo of a single Dialog Box
+// TestComponent2 is for demo of a two Dialog Box
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <TestComponent />
+    // <TestComponent2 />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
