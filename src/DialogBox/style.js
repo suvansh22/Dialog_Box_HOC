@@ -1,9 +1,6 @@
 import Styled from "styled-components/native";
 import { Button } from 'react-native-elements';
 import { vw, vh } from 'react-native-viewport-units';
-import { Dimensions } from 'react-native';
-
-console.log('heigth',Dimensions.get('screen').height)
 
 export const Overlay = Styled.Pressable`
   background-color: rgba(0,0,0,1);
